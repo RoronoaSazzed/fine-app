@@ -1,0 +1,142 @@
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+@media (max-width: 767px){
+    .mainLogo{
+        margin: 4% 0 0 4%;
+}
+}        
+
+
+.navbar-default{
+    background-color: #81c8c2;
+    border-color: #81c8c2;
+}
+
+.navbar-default .navbar-nav li a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #F4F641;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav .open li a,
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover{
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px #F4F641;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+
+.navbar-default .navbar-nav li .open a:focus,
+.navbar-default .navbar-nav li .open a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    word-spacing: 2px;
+    text-shadow: 0 0 1px #F4F641;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+@keyframes btnNav {
+    from {
+        color: white;;
+    }
+    to {
+        color: #F4F641;
+    }
+}
+
+.defaultPaddingTopBottom{
+    padding: 50px 0;
+}
+
+.smallMargin{
+    margin-top: 30px;
+}
+
+.headerOne{
+    margin-top: 110px;
+    font-size: 45px;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.divOne{
+    min-height: 50px;
+    background-color: whitesmoke;
+}
+
+.iconPadding{
+    padding: 0 10px;
+}
+
+.buttons{
+    border-radius: 40px;
+    border-color: #e74c3c;
+    font-family: 'Domine', serif;
+
+}
+
+.defaultPaddingTopBottom ul li a {
+    margin-top: 10px;
+    color: #c0392b;
+    font-family: 'Domine', serif;
+}
+
+.buttons:hover{
+    border-radius: 40px;
+    border-color: #e74c3c;
+    font-family: 'Domine', serif;
+    text-shadow: none;
+
+}
+
+.defaultPaddingTopBottom ul li a:hover{
+    color: #c0392b;
+    font-family: 'Domine', serif;
+}
+
+.divTwo{
+    background-color: #81c8c2;
+    min-height: 450px;
+    padding-bottom: 35px;
+}
+
+.headerTwo{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+.footerHeader{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.divThree i {
+    color: #81c8c2;
+}
+
+.divThree{
+    min-height: 400px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #81c8c2;
+}
+
+::selection {
+    color: white;
+    background: #81c8c2;
+}
